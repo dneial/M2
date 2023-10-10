@@ -1,6 +1,7 @@
 package datamining;
+import java.util.Set;
 
 public interface AssociationRuleMiner{
-    public BooleanDatabas getDatabase();
+    public BooleanDatabase getDatabase();
     public Set<AssociationRule> extract(float frequence, float confianceMin);
 }

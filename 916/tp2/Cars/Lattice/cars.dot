@@ -1,0 +1,882 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 30)||0\n0\n0\n1\n0\n0\n0\n0\n0\n0\n1\n0\n0\n0\n0\n1\n0\n0\n1\n0\n1\n0\n0\n1\n0\n0\n0\n0\n1\n1\n}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 1, E: 6)|price_low\n|0\n0\n0\n0\n0\n0\n}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 24, E: 0)|price_low\nprice_med\nprice_vhigh\nbuying_high\nbuying_low\nbuying_med\nbuying_vhigh\nmaint_2\nmaint_3\nmaint_4\nmaint_5more\ndoors_2\ndoors_4\ndoors_more\npersons_big\npersons_med\npersons_small\nlug_boot_high\nlug_boot_low\nlug_boot_med\nsafety_acc\nsafety_good\nsafety_unacc\nsafety_vgood\n|}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 1, E: 10)|price_med\n|0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 2, E: 6)|price_vhigh\nsafety_unacc\n|0\n0\n0\n0\n0\n0\n}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 2, E: 2)|price_low\nbuying_high\n|0\n0\n}"];
+6 [shape=record,style=filled,fillcolor=lightblue,label="{6 (I: 2, E: 3)|price_med\nbuying_high\n|0\n0\n0\n}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{7 (I: 5, E: 2)|price_vhigh\nbuying_high\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+8 [shape=record,style=filled,fillcolor=lightblue,label="{8 (I: 1, E: 12)|buying_high\n|0\n0\n1\n0\n0\n1\n0\n1\n1\n0\n0\n1\n}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{9 (I: 6, E: 2)|price_low\nbuying_low\nmaint_4\ndoors_4\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 2, E: 3)|buying_low\ndoors_4\n|0\n0\n1\n}"];
+11 [shape=record,style=filled,label="{11 (I: 7, E: 1)|price_low\nbuying_med\nmaint_3\ndoors_more\npersons_med\nlug_boot_med\nsafety_good\n|0\n}"];
+12 [shape=record,style=filled,fillcolor=lightblue,label="{12 (I: 2, E: 3)|price_med\nbuying_med\n|0\n0\n0\n}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 6, E: 2)|price_vhigh\nbuying_med\nmaint_3\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+14 [shape=record,style=filled,fillcolor=lightblue,label="{14 (I: 1, E: 8)|buying_med\n|0\n0\n0\n1\n0\n0\n1\n0\n}"];
+15 [shape=record,style=filled,label="{15 (I: 7, E: 1)|price_low\nbuying_vhigh\nmaint_4\ndoors_4\npersons_big\nlug_boot_high\nsafety_acc\n|0\n}"];
+16 [shape=record,style=filled,fillcolor=lightblue,label="{16 (I: 2, E: 4)|price_med\nbuying_vhigh\n|0\n0\n0\n0\n}"];
+17 [shape=record,style=filled,fillcolor=lightblue,label="{17 (I: 5, E: 2)|price_vhigh\nbuying_vhigh\ndoors_2\npersons_small\nsafety_unacc\n|0\n0\n}"];
+18 [shape=record,style=filled,fillcolor=lightblue,label="{18 (I: 1, E: 7)|buying_vhigh\n|0\n0\n0\n0\n0\n0\n0\n}"];
+19 [shape=record,style=filled,label="{19 (I: 7, E: 1)|price_low\nbuying_high\nmaint_2\ndoors_4\npersons_med\nlug_boot_high\nsafety_acc\n|0\n}"];
+20 [shape=record,style=filled,label="{20 (I: 7, E: 1)|price_med\nbuying_high\nmaint_2\ndoors_4\npersons_small\nlug_boot_high\nsafety_acc\n|0\n}"];
+21 [shape=record,style=filled,label="{21 (I: 7, E: 1)|price_med\nbuying_med\nmaint_2\ndoors_2\npersons_big\nlug_boot_low\nsafety_unacc\n|0\n}"];
+22 [shape=record,style=filled,fillcolor=lightblue,label="{22 (I: 2, E: 2)|price_med\nmaint_2\n|0\n0\n}"];
+23 [shape=record,style=filled,label="{23 (I: 7, E: 1)|price_vhigh\nbuying_high\nmaint_2\ndoors_4\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+24 [shape=record,style=filled,label="{24 (I: 7, E: 1)|price_vhigh\nbuying_vhigh\nmaint_2\ndoors_2\npersons_small\nlug_boot_med\nsafety_unacc\n|0\n}"];
+25 [shape=record,style=filled,fillcolor=lightblue,label="{25 (I: 3, E: 2)|price_vhigh\nmaint_2\nsafety_unacc\n|0\n0\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 3, E: 3)|buying_high\nmaint_2\ndoors_4\n|0\n0\n0\n}"];
+27 [shape=record,style=filled,fillcolor=lightblue,label="{27 (I: 1, E: 5)|maint_2\n|0\n0\n0\n0\n0\n}"];
+28 [shape=record,style=filled,label="{28 (I: 7, E: 1)|price_med\nbuying_high\nmaint_3\ndoors_more\npersons_big\nlug_boot_high\nsafety_acc\n|0\n}"];
+29 [shape=record,style=filled,label="{29 (I: 7, E: 1)|price_med\nbuying_vhigh\nmaint_3\ndoors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+30 [shape=record,style=filled,fillcolor=lightblue,label="{30 (I: 3, E: 2)|price_med\nmaint_3\ndoors_more\n|0\n0\n}"];
+31 [shape=record,style=filled,label="{31 (I: 7, E: 1)|price_vhigh\nbuying_vhigh\nmaint_3\ndoors_2\npersons_small\nlug_boot_low\nsafety_unacc\n|0\n}"];
+32 [shape=record,style=filled,fillcolor=lightblue,label="{32 (I: 4, E: 3)|price_vhigh\nmaint_3\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+33 [shape=record,style=filled,fillcolor=lightblue,label="{33 (I: 2, E: 2)|buying_high\nmaint_3\n|0\n1\n}"];
+34 [shape=record,style=filled,label="{34 (I: 6, E: 1)|buying_low\nmaint_3\ndoors_4\npersons_small\nlug_boot_high\nsafety_acc\n|1\n}"];
+35 [shape=record,style=filled,fillcolor=lightblue,label="{35 (I: 2, E: 5)|buying_med\nmaint_3\n|0\n1\n0\n1\n0\n}"];
+36 [shape=record,style=filled,fillcolor=lightblue,label="{36 (I: 4, E: 2)|buying_vhigh\nmaint_3\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+37 [shape=record,style=filled,fillcolor=lightblue,label="{37 (I: 1, E: 10)|maint_3\n|0\n0\n1\n1\n0\n0\n1\n0\n0\n1\n}"];
+38 [shape=record,style=filled,fillcolor=lightblue,label="{38 (I: 3, E: 3)|price_low\nmaint_4\ndoors_4\n|0\n0\n0\n}"];
+39 [shape=record,style=filled,label="{39 (I: 7, E: 1)|price_med\nbuying_high\nmaint_4\ndoors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+40 [shape=record,style=filled,fillcolor=lightblue,label="{40 (I: 3, E: 2)|price_med\nbuying_vhigh\nmaint_4\n|0\n0\n}"];
+41 [shape=record,style=filled,fillcolor=lightblue,label="{41 (I: 2, E: 3)|price_med\nmaint_4\n|0\n0\n0\n}"];
+42 [shape=record,style=filled,fillcolor=lightblue,label="{42 (I: 3, E: 5)|buying_high\nmaint_4\nsafety_unacc\n|1\n0\n1\n1\n1\n}"];
+43 [shape=record,style=filled,fillcolor=lightblue,label="{43 (I: 2, E: 3)|buying_vhigh\nmaint_4\n|0\n0\n0\n}"];
+44 [shape=record,style=filled,fillcolor=lightblue,label="{44 (I: 1, E: 10)|maint_4\n|0\n1\n0\n0\n1\n0\n1\n0\n0\n1\n}"];
+45 [shape=record,style=filled,label="{45 (I: 7, E: 1)|price_low\nbuying_high\nmaint_5more\ndoors_2\npersons_big\nlug_boot_low\nsafety_unacc\n|0\n}"];
+46 [shape=record,style=filled,fillcolor=lightblue,label="{46 (I: 4, E: 2)|price_med\nbuying_med\nmaint_5more\npersons_med\n|0\n0\n}"];
+47 [shape=record,style=filled,label="{47 (I: 7, E: 1)|price_med\nbuying_vhigh\nmaint_5more\ndoors_2\npersons_small\nlug_boot_med\nsafety_unacc\n|0\n}"];
+48 [shape=record,style=filled,fillcolor=lightblue,label="{48 (I: 2, E: 3)|price_med\nmaint_5more\n|0\n0\n0\n}"];
+49 [shape=record,style=filled,label="{49 (I: 7, E: 1)|price_vhigh\nbuying_high\nmaint_5more\ndoors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+50 [shape=record,style=filled,fillcolor=lightblue,label="{50 (I: 5, E: 2)|buying_high\nmaint_5more\ndoors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+51 [shape=record,style=filled,fillcolor=lightblue,label="{51 (I: 1, E: 5)|maint_5more\n|0\n0\n0\n0\n0\n}"];
+52 [shape=record,style=filled,label="{52 (I: 7, E: 1)|price_med\nbuying_vhigh\nmaint_4\ndoors_2\npersons_big\nlug_boot_med\nsafety_unacc\n|0\n}"];
+53 [shape=record,style=filled,fillcolor=lightblue,label="{53 (I: 5, E: 2)|price_med\nbuying_vhigh\ndoors_2\nlug_boot_med\nsafety_unacc\n|0\n0\n}"];
+54 [shape=record,style=filled,fillcolor=lightblue,label="{54 (I: 4, E: 2)|price_med\nmaint_4\ndoors_2\nsafety_unacc\n|0\n0\n}"];
+55 [shape=record,style=filled,fillcolor=lightblue,label="{55 (I: 3, E: 4)|price_med\ndoors_2\nsafety_unacc\n|0\n0\n0\n0\n}"];
+56 [shape=record,style=filled,label="{56 (I: 7, E: 1)|price_vhigh\nbuying_med\nmaint_3\ndoors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+57 [shape=record,style=filled,fillcolor=lightblue,label="{57 (I: 5, E: 2)|price_vhigh\nmaint_3\ndoors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+58 [shape=record,style=filled,fillcolor=lightblue,label="{58 (I: 3, E: 4)|price_vhigh\ndoors_2\nsafety_unacc\n|0\n0\n0\n0\n}"];
+59 [shape=record,style=filled,label="{59 (I: 6, E: 1)|buying_high\nmaint_3\ndoors_2\npersons_med\nlug_boot_med\nsafety_unacc\n|1\n}"];
+60 [shape=record,style=filled,fillcolor=lightblue,label="{60 (I: 5, E: 3)|buying_high\nmaint_4\ndoors_2\npersons_med\nsafety_unacc\n|0\n1\n1\n}"];
+61 [shape=record,style=filled,fillcolor=lightblue,label="{61 (I: 3, E: 6)|buying_high\ndoors_2\nsafety_unacc\n|1\n0\n0\n1\n0\n1\n}"];
+62 [shape=record,style=filled,fillcolor=lightblue,label="{62 (I: 4, E: 2)|buying_med\ndoors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+63 [shape=record,style=filled,fillcolor=lightblue,label="{63 (I: 3, E: 4)|buying_vhigh\ndoors_2\nsafety_unacc\n|0\n0\n0\n0\n}"];
+64 [shape=record,style=filled,fillcolor=lightblue,label="{64 (I: 3, E: 2)|maint_2\ndoors_2\nsafety_unacc\n|0\n0\n}"];
+65 [shape=record,style=filled,fillcolor=lightblue,label="{65 (I: 3, E: 3)|maint_3\ndoors_2\nsafety_unacc\n|1\n0\n0\n}"];
+66 [shape=record,style=filled,fillcolor=lightblue,label="{66 (I: 3, E: 4)|maint_4\ndoors_2\nsafety_unacc\n|0\n0\n1\n1\n}"];
+67 [shape=record,style=filled,fillcolor=lightblue,label="{67 (I: 3, E: 3)|maint_5more\ndoors_2\nsafety_unacc\n|0\n0\n0\n}"];
+68 [shape=record,style=filled,fillcolor=lightblue,label="{68 (I: 2, E: 12)|doors_2\nsafety_unacc\n|1\n0\n0\n0\n0\n0\n0\n0\n1\n0\n0\n1\n}"];
+69 [shape=record,style=filled,fillcolor=lightblue,label="{69 (I: 2, E: 4)|price_low\ndoors_4\n|0\n0\n0\n0\n}"];
+70 [shape=record,style=filled,label="{70 (I: 7, E: 1)|price_med\nbuying_med\nmaint_5more\ndoors_4\npersons_med\nlug_boot_med\nsafety_acc\n|0\n}"];
+71 [shape=record,style=filled,label="{71 (I: 7, E: 1)|price_med\nbuying_vhigh\nmaint_4\ndoors_4\npersons_small\nlug_boot_high\nsafety_acc\n|0\n}"];
+72 [shape=record,style=filled,fillcolor=lightblue,label="{72 (I: 3, E: 3)|price_med\ndoors_4\nsafety_acc\n|0\n0\n0\n}"];
+73 [shape=record,style=filled,label="{73 (I: 6, E: 1)|buying_high\nmaint_4\ndoors_4\npersons_big\nlug_boot_low\nsafety_unacc\n|1\n}"];
+74 [shape=record,style=filled,fillcolor=lightblue,label="{74 (I: 2, E: 4)|buying_high\ndoors_4\n|0\n0\n1\n0\n}"];
+75 [shape=record,style=filled,fillcolor=lightblue,label="{75 (I: 4, E: 2)|buying_med\nmaint_3\ndoors_4\npersons_small\n|1\n1\n}"];
+76 [shape=record,style=filled,fillcolor=lightblue,label="{76 (I: 2, E: 3)|buying_med\ndoors_4\n|1\n0\n1\n}"];
+77 [shape=record,style=filled,fillcolor=lightblue,label="{77 (I: 5, E: 2)|buying_vhigh\nmaint_4\ndoors_4\nlug_boot_high\nsafety_acc\n|0\n0\n}"];
+78 [shape=record,style=filled,fillcolor=lightblue,label="{78 (I: 3, E: 3)|maint_3\ndoors_4\npersons_small\n|1\n1\n1\n}"];
+79 [shape=record,style=filled,fillcolor=lightblue,label="{79 (I: 2, E: 5)|maint_4\ndoors_4\n|0\n0\n1\n0\n0\n}"];
+80 [shape=record,style=filled,fillcolor=lightblue,label="{80 (I: 1, E: 12)|doors_4\n|0\n0\n1\n0\n0\n0\n1\n0\n1\n0\n0\n1\n}"];
+81 [shape=record,style=filled,label="{81 (I: 7, E: 1)|price_med\nbuying_med\nmaint_5more\ndoors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+82 [shape=record,style=filled,fillcolor=lightblue,label="{82 (I: 2, E: 3)|price_med\ndoors_more\n|0\n0\n0\n}"];
+83 [shape=record,style=filled,label="{83 (I: 7, E: 1)|price_vhigh\nbuying_med\nmaint_3\ndoors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+84 [shape=record,style=filled,label="{84 (I: 6, E: 1)|buying_high\nmaint_4\ndoors_more\npersons_small\nlug_boot_low\nsafety_unacc\n|1\n}"];
+85 [shape=record,style=filled,fillcolor=lightblue,label="{85 (I: 2, E: 2)|buying_high\ndoors_more\n|0\n1\n}"];
+86 [shape=record,style=filled,fillcolor=lightblue,label="{86 (I: 4, E: 2)|buying_med\nmaint_3\ndoors_more\npersons_med\n|0\n0\n}"];
+87 [shape=record,style=filled,fillcolor=lightblue,label="{87 (I: 3, E: 3)|buying_med\ndoors_more\npersons_med\n|0\n0\n0\n}"];
+88 [shape=record,style=filled,fillcolor=lightblue,label="{88 (I: 2, E: 4)|maint_3\ndoors_more\n|0\n0\n0\n0\n}"];
+89 [shape=record,style=filled,fillcolor=lightblue,label="{89 (I: 1, E: 6)|doors_more\n|0\n0\n0\n0\n1\n0\n}"];
+90 [shape=record,style=filled,fillcolor=lightblue,label="{90 (I: 2, E: 2)|price_low\npersons_big\n|0\n0\n}"];
+91 [shape=record,style=filled,fillcolor=lightblue,label="{91 (I: 4, E: 2)|price_med\ndoors_2\npersons_big\nsafety_unacc\n|0\n0\n}"];
+92 [shape=record,style=filled,fillcolor=lightblue,label="{92 (I: 2, E: 3)|price_med\npersons_big\n|0\n0\n0\n}"];
+93 [shape=record,style=filled,fillcolor=lightblue,label="{93 (I: 2, E: 3)|buying_high\npersons_big\n|0\n0\n1\n}"];
+94 [shape=record,style=filled,fillcolor=lightblue,label="{94 (I: 3, E: 2)|buying_vhigh\nmaint_4\npersons_big\n|0\n0\n}"];
+95 [shape=record,style=filled,fillcolor=lightblue,label="{95 (I: 3, E: 2)|maint_4\ndoors_4\npersons_big\n|1\n0\n}"];
+96 [shape=record,style=filled,fillcolor=lightblue,label="{96 (I: 2, E: 3)|maint_4\npersons_big\n|1\n0\n0\n}"];
+97 [shape=record,style=filled,fillcolor=lightblue,label="{97 (I: 3, E: 3)|doors_2\npersons_big\nsafety_unacc\n|0\n0\n0\n}"];
+98 [shape=record,style=filled,fillcolor=lightblue,label="{98 (I: 1, E: 6)|persons_big\n|0\n0\n0\n1\n0\n0\n}"];
+99 [shape=record,style=filled,label="{99 (I: 7, E: 1)|price_low\nbuying_low\nmaint_4\ndoors_4\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n}"];
+100 [shape=record,style=filled,fillcolor=lightblue,label="{100 (I: 3, E: 2)|price_low\ndoors_4\npersons_med\n|0\n0\n}"];
+101 [shape=record,style=filled,fillcolor=lightblue,label="{101 (I: 2, E: 3)|price_low\npersons_med\n|0\n0\n0\n}"];
+102 [shape=record,style=filled,fillcolor=lightblue,label="{102 (I: 5, E: 2)|price_med\ndoors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+103 [shape=record,style=filled,fillcolor=lightblue,label="{103 (I: 2, E: 4)|price_med\npersons_med\n|0\n0\n0\n0\n}"];
+104 [shape=record,style=filled,fillcolor=lightblue,label="{104 (I: 5, E: 2)|price_vhigh\ndoors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+105 [shape=record,style=filled,fillcolor=lightblue,label="{105 (I: 4, E: 4)|price_vhigh\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n}"];
+106 [shape=record,style=filled,fillcolor=lightblue,label="{106 (I: 4, E: 5)|buying_high\ndoors_2\npersons_med\nsafety_unacc\n|1\n0\n1\n0\n1\n}"];
+107 [shape=record,style=filled,fillcolor=lightblue,label="{107 (I: 4, E: 2)|buying_high\nmaint_2\ndoors_4\npersons_med\n|0\n0\n}"];
+108 [shape=record,style=filled,fillcolor=lightblue,label="{108 (I: 2, E: 7)|buying_high\npersons_med\n|0\n1\n0\n0\n1\n0\n1\n}"];
+109 [shape=record,style=filled,fillcolor=lightblue,label="{109 (I: 3, E: 3)|buying_med\nmaint_3\npersons_med\n|0\n0\n0\n}"];
+110 [shape=record,style=filled,fillcolor=lightblue,label="{110 (I: 2, E: 5)|buying_med\npersons_med\n|0\n0\n0\n0\n0\n}"];
+111 [shape=record,style=filled,fillcolor=lightblue,label="{111 (I: 4, E: 2)|maint_3\ndoors_2\npersons_med\nsafety_unacc\n|1\n0\n}"];
+112 [shape=record,style=filled,fillcolor=lightblue,label="{112 (I: 3, E: 3)|maint_3\ndoors_more\npersons_med\n|0\n0\n0\n}"];
+113 [shape=record,style=filled,fillcolor=lightblue,label="{113 (I: 2, E: 5)|maint_3\npersons_med\n|0\n1\n0\n0\n0\n}"];
+114 [shape=record,style=filled,fillcolor=lightblue,label="{114 (I: 3, E: 4)|maint_4\npersons_med\nsafety_unacc\n|0\n0\n1\n1\n}"];
+115 [shape=record,style=filled,fillcolor=lightblue,label="{115 (I: 2, E: 3)|maint_5more\npersons_med\n|0\n0\n0\n}"];
+116 [shape=record,style=filled,fillcolor=lightblue,label="{116 (I: 3, E: 6)|doors_2\npersons_med\nsafety_unacc\n|1\n0\n1\n0\n0\n1\n}"];
+117 [shape=record,style=filled,fillcolor=lightblue,label="{117 (I: 2, E: 4)|doors_4\npersons_med\n|0\n0\n0\n0\n}"];
+118 [shape=record,style=filled,fillcolor=lightblue,label="{118 (I: 2, E: 4)|doors_more\npersons_med\n|0\n0\n0\n0\n}"];
+119 [shape=record,style=filled,fillcolor=lightblue,label="{119 (I: 1, E: 14)|persons_med\n|0\n0\n1\n0\n0\n0\n0\n0\n0\n1\n0\n0\n0\n1\n}"];
+120 [shape=record,style=filled,label="{120 (I: 7, E: 1)|price_low\nbuying_low\nmaint_4\ndoors_4\npersons_small\nlug_boot_low\nsafety_unacc\n|0\n}"];
+121 [shape=record,style=filled,fillcolor=lightblue,label="{121 (I: 3, E: 2)|price_med\nbuying_vhigh\npersons_small\n|0\n0\n}"];
+122 [shape=record,style=filled,fillcolor=lightblue,label="{122 (I: 5, E: 2)|price_med\ndoors_4\npersons_small\nlug_boot_high\nsafety_acc\n|0\n0\n}"];
+123 [shape=record,style=filled,fillcolor=lightblue,label="{123 (I: 2, E: 3)|price_med\npersons_small\n|0\n0\n0\n}"];
+124 [shape=record,style=filled,fillcolor=lightblue,label="{124 (I: 2, E: 2)|buying_high\npersons_small\n|1\n0\n}"];
+125 [shape=record,style=filled,fillcolor=lightblue,label="{125 (I: 4, E: 3)|buying_vhigh\ndoors_2\npersons_small\nsafety_unacc\n|0\n0\n0\n}"];
+126 [shape=record,style=filled,fillcolor=lightblue,label="{126 (I: 2, E: 4)|buying_vhigh\npersons_small\n|0\n0\n0\n0\n}"];
+127 [shape=record,style=filled,fillcolor=lightblue,label="{127 (I: 2, E: 2)|maint_2\npersons_small\n|0\n0\n}"];
+128 [shape=record,style=filled,fillcolor=lightblue,label="{128 (I: 2, E: 4)|maint_3\npersons_small\n|1\n0\n1\n1\n}"];
+129 [shape=record,style=filled,fillcolor=lightblue,label="{129 (I: 3, E: 2)|maint_4\ndoors_4\npersons_small\n|0\n0\n}"];
+130 [shape=record,style=filled,fillcolor=lightblue,label="{130 (I: 2, E: 3)|maint_4\npersons_small\n|1\n0\n0\n}"];
+131 [shape=record,style=filled,fillcolor=lightblue,label="{131 (I: 3, E: 2)|buying_low\ndoors_4\npersons_small\n|0\n1\n}"];
+132 [shape=record,style=filled,fillcolor=lightblue,label="{132 (I: 2, E: 6)|doors_4\npersons_small\n|1\n0\n1\n0\n0\n1\n}"];
+133 [shape=record,style=filled,fillcolor=lightblue,label="{133 (I: 1, E: 10)|persons_small\n|0\n0\n1\n0\n1\n0\n1\n0\n0\n1\n}"];
+134 [shape=record,style=filled,fillcolor=lightblue,label="{134 (I: 4, E: 2)|price_low\ndoors_4\nlug_boot_high\nsafety_acc\n|0\n0\n}"];
+135 [shape=record,style=filled,fillcolor=lightblue,label="{135 (I: 4, E: 2)|price_med\nbuying_high\nlug_boot_high\nsafety_acc\n|0\n0\n}"];
+136 [shape=record,style=filled,fillcolor=lightblue,label="{136 (I: 3, E: 3)|price_med\nlug_boot_high\nsafety_acc\n|0\n0\n0\n}"];
+137 [shape=record,style=filled,label="{137 (I: 6, E: 1)|buying_high\nmaint_4\ndoors_2\npersons_med\nlug_boot_high\nsafety_unacc\n|1\n}"];
+138 [shape=record,style=filled,fillcolor=lightblue,label="{138 (I: 5, E: 2)|buying_high\nmaint_2\ndoors_4\nlug_boot_high\nsafety_acc\n|0\n0\n}"];
+139 [shape=record,style=filled,fillcolor=lightblue,label="{139 (I: 3, E: 2)|buying_high\npersons_med\nlug_boot_high\n|0\n1\n}"];
+140 [shape=record,style=filled,fillcolor=lightblue,label="{140 (I: 2, E: 4)|buying_high\nlug_boot_high\n|0\n0\n1\n0\n}"];
+141 [shape=record,style=filled,label="{141 (I: 6, E: 1)|buying_med\nmaint_3\ndoors_4\npersons_small\nlug_boot_high\nsafety_acc\n|1\n}"];
+142 [shape=record,style=filled,fillcolor=lightblue,label="{142 (I: 5, E: 2)|maint_3\ndoors_4\npersons_small\nlug_boot_high\nsafety_acc\n|1\n1\n}"];
+143 [shape=record,style=filled,fillcolor=lightblue,label="{143 (I: 3, E: 3)|maint_3\nlug_boot_high\nsafety_acc\n|0\n1\n1\n}"];
+144 [shape=record,style=filled,fillcolor=lightblue,label="{144 (I: 2, E: 3)|maint_4\nlug_boot_high\n|1\n0\n0\n}"];
+145 [shape=record,style=filled,fillcolor=lightblue,label="{145 (I: 4, E: 4)|doors_4\npersons_small\nlug_boot_high\nsafety_acc\n|1\n0\n0\n1\n}"];
+146 [shape=record,style=filled,fillcolor=lightblue,label="{146 (I: 3, E: 6)|doors_4\nlug_boot_high\nsafety_acc\n|0\n0\n1\n0\n0\n1\n}"];
+147 [shape=record,style=filled,fillcolor=lightblue,label="{147 (I: 3, E: 2)|persons_big\nlug_boot_high\nsafety_acc\n|0\n0\n}"];
+148 [shape=record,style=filled,fillcolor=lightblue,label="{148 (I: 1, E: 8)|lug_boot_high\n|0\n0\n1\n0\n1\n0\n0\n1\n}"];
+149 [shape=record,style=filled,fillcolor=lightblue,label="{149 (I: 3, E: 3)|price_low\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+150 [shape=record,style=filled,fillcolor=lightblue,label="{150 (I: 4, E: 2)|price_med\nbuying_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+151 [shape=record,style=filled,fillcolor=lightblue,label="{151 (I: 4, E: 2)|price_med\ndoors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+152 [shape=record,style=filled,fillcolor=lightblue,label="{152 (I: 4, E: 3)|price_med\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+153 [shape=record,style=filled,fillcolor=lightblue,label="{153 (I: 3, E: 4)|price_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n}"];
+154 [shape=record,style=filled,fillcolor=lightblue,label="{154 (I: 4, E: 3)|price_vhigh\ndoors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+155 [shape=record,style=filled,fillcolor=lightblue,label="{155 (I: 3, E: 5)|price_vhigh\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n0\n}"];
+156 [shape=record,style=filled,label="{156 (I: 6, E: 2)|buying_high\nmaint_4\ndoors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n1\n}"];
+157 [shape=record,style=filled,fillcolor=lightblue,label="{157 (I: 4, E: 4)|buying_high\nmaint_4\nlug_boot_low\nsafety_unacc\n|1\n0\n1\n1\n}"];
+158 [shape=record,style=filled,fillcolor=lightblue,label="{158 (I: 5, E: 3)|buying_high\ndoors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n1\n}"];
+159 [shape=record,style=filled,fillcolor=lightblue,label="{159 (I: 4, E: 4)|buying_high\ndoors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n1\n}"];
+160 [shape=record,style=filled,fillcolor=lightblue,label="{160 (I: 4, E: 2)|buying_high\ndoors_4\nlug_boot_low\nsafety_unacc\n|0\n1\n}"];
+161 [shape=record,style=filled,fillcolor=lightblue,label="{161 (I: 4, E: 2)|buying_high\npersons_big\nlug_boot_low\nsafety_unacc\n|0\n1\n}"];
+162 [shape=record,style=filled,fillcolor=lightblue,label="{162 (I: 4, E: 4)|buying_high\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n1\n}"];
+163 [shape=record,style=filled,fillcolor=lightblue,label="{163 (I: 3, E: 7)|buying_high\nlug_boot_low\nsafety_unacc\n|0\n0\n1\n0\n1\n0\n1\n}"];
+164 [shape=record,style=filled,fillcolor=lightblue,label="{164 (I: 5, E: 2)|buying_med\ndoors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+165 [shape=record,style=filled,fillcolor=lightblue,label="{165 (I: 4, E: 3)|buying_med\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+166 [shape=record,style=filled,fillcolor=lightblue,label="{166 (I: 3, E: 4)|buying_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n}"];
+167 [shape=record,style=filled,fillcolor=lightblue,label="{167 (I: 3, E: 2)|maint_2\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+168 [shape=record,style=filled,fillcolor=lightblue,label="{168 (I: 5, E: 2)|maint_3\ndoors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+169 [shape=record,style=filled,fillcolor=lightblue,label="{169 (I: 4, E: 3)|maint_3\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+170 [shape=record,style=filled,fillcolor=lightblue,label="{170 (I: 3, E: 4)|maint_3\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n}"];
+171 [shape=record,style=filled,fillcolor=lightblue,label="{171 (I: 4, E: 3)|maint_4\ndoors_4\nlug_boot_low\nsafety_unacc\n|0\n0\n1\n}"];
+172 [shape=record,style=filled,fillcolor=lightblue,label="{172 (I: 4, E: 3)|maint_4\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n1\n}"];
+173 [shape=record,style=filled,fillcolor=lightblue,label="{173 (I: 4, E: 2)|maint_4\npersons_small\nlug_boot_low\nsafety_unacc\n|1\n0\n}"];
+174 [shape=record,style=filled,fillcolor=lightblue,label="{174 (I: 3, E: 6)|maint_4\nlug_boot_low\nsafety_unacc\n|0\n1\n0\n0\n1\n1\n}"];
+175 [shape=record,style=filled,fillcolor=lightblue,label="{175 (I: 4, E: 2)|maint_5more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+176 [shape=record,style=filled,fillcolor=lightblue,label="{176 (I: 3, E: 3)|maint_5more\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+177 [shape=record,style=filled,fillcolor=lightblue,label="{177 (I: 4, E: 2)|doors_2\npersons_big\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+178 [shape=record,style=filled,fillcolor=lightblue,label="{178 (I: 4, E: 4)|doors_2\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n1\n}"];
+179 [shape=record,style=filled,fillcolor=lightblue,label="{179 (I: 3, E: 7)|doors_2\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n0\n0\n1\n}"];
+180 [shape=record,style=filled,fillcolor=lightblue,label="{180 (I: 4, E: 2)|doors_4\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n}"];
+181 [shape=record,style=filled,fillcolor=lightblue,label="{181 (I: 3, E: 4)|doors_4\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n1\n}"];
+182 [shape=record,style=filled,fillcolor=lightblue,label="{182 (I: 4, E: 3)|doors_more\npersons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n}"];
+183 [shape=record,style=filled,fillcolor=lightblue,label="{183 (I: 3, E: 4)|doors_more\nlug_boot_low\nsafety_unacc\n|0\n0\n1\n0\n}"];
+184 [shape=record,style=filled,fillcolor=lightblue,label="{184 (I: 3, E: 3)|persons_big\nlug_boot_low\nsafety_unacc\n|0\n0\n1\n}"];
+185 [shape=record,style=filled,fillcolor=lightblue,label="{185 (I: 3, E: 9)|persons_med\nlug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n0\n0\n0\n0\n1\n}"];
+186 [shape=record,style=filled,fillcolor=lightblue,label="{186 (I: 3, E: 3)|persons_small\nlug_boot_low\nsafety_unacc\n|0\n1\n0\n}"];
+187 [shape=record,style=filled,fillcolor=lightblue,label="{187 (I: 2, E: 15)|lug_boot_low\nsafety_unacc\n|0\n0\n0\n0\n0\n0\n0\n1\n0\n0\n1\n0\n0\n0\n1\n}"];
+188 [shape=record,style=filled,fillcolor=lightblue,label="{188 (I: 3, E: 2)|price_med\nmaint_5more\nlug_boot_med\n|0\n0\n}"];
+189 [shape=record,style=filled,fillcolor=lightblue,label="{189 (I: 2, E: 3)|price_med\nlug_boot_med\n|0\n0\n0\n}"];
+190 [shape=record,style=filled,label="{190 (I: 6, E: 1)|buying_med\nmaint_3\ndoors_4\npersons_small\nlug_boot_med\nsafety_unacc\n|1\n}"];
+191 [shape=record,style=filled,fillcolor=lightblue,label="{191 (I: 3, E: 2)|buying_med\nmaint_3\nlug_boot_med\n|0\n1\n}"];
+192 [shape=record,style=filled,fillcolor=lightblue,label="{192 (I: 3, E: 2)|buying_med\ndoors_4\nlug_boot_med\n|1\n0\n}"];
+193 [shape=record,style=filled,fillcolor=lightblue,label="{193 (I: 3, E: 2)|buying_med\npersons_med\nlug_boot_med\n|0\n0\n}"];
+194 [shape=record,style=filled,fillcolor=lightblue,label="{194 (I: 2, E: 3)|buying_med\nlug_boot_med\n|0\n1\n0\n}"];
+195 [shape=record,style=filled,fillcolor=lightblue,label="{195 (I: 5, E: 2)|buying_vhigh\ndoors_2\npersons_small\nlug_boot_med\nsafety_unacc\n|0\n0\n}"];
+196 [shape=record,style=filled,fillcolor=lightblue,label="{196 (I: 4, E: 3)|buying_vhigh\ndoors_2\nlug_boot_med\nsafety_unacc\n|0\n0\n0\n}"];
+197 [shape=record,style=filled,fillcolor=lightblue,label="{197 (I: 3, E: 2)|maint_3\npersons_med\nlug_boot_med\n|0\n1\n}"];
+198 [shape=record,style=filled,fillcolor=lightblue,label="{198 (I: 2, E: 3)|maint_3\nlug_boot_med\n|0\n1\n1\n}"];
+199 [shape=record,style=filled,fillcolor=lightblue,label="{199 (I: 3, E: 4)|doors_2\nlug_boot_med\nsafety_unacc\n|1\n0\n0\n0\n}"];
+200 [shape=record,style=filled,fillcolor=lightblue,label="{200 (I: 2, E: 3)|persons_med\nlug_boot_med\n|0\n1\n0\n}"];
+201 [shape=record,style=filled,fillcolor=lightblue,label="{201 (I: 3, E: 3)|persons_small\nlug_boot_med\nsafety_unacc\n|0\n0\n1\n}"];
+202 [shape=record,style=filled,fillcolor=lightblue,label="{202 (I: 1, E: 7)|lug_boot_med\n|0\n1\n0\n0\n1\n0\n0\n}"];
+203 [shape=record,style=filled,fillcolor=lightblue,label="{203 (I: 2, E: 4)|price_med\nsafety_acc\n|0\n0\n0\n0\n}"];
+204 [shape=record,style=filled,fillcolor=lightblue,label="{204 (I: 3, E: 3)|buying_high\nlug_boot_high\nsafety_acc\n|0\n0\n0\n}"];
+205 [shape=record,style=filled,fillcolor=lightblue,label="{205 (I: 3, E: 2)|buying_med\ndoors_4\nsafety_acc\n|0\n1\n}"];
+206 [shape=record,style=filled,fillcolor=lightblue,label="{206 (I: 3, E: 2)|doors_4\npersons_med\nsafety_acc\n|0\n0\n}"];
+207 [shape=record,style=filled,fillcolor=lightblue,label="{207 (I: 2, E: 7)|doors_4\nsafety_acc\n|0\n0\n0\n1\n0\n0\n1\n}"];
+208 [shape=record,style=filled,fillcolor=lightblue,label="{208 (I: 2, E: 7)|lug_boot_high\nsafety_acc\n|0\n0\n0\n1\n0\n0\n1\n}"];
+209 [shape=record,style=filled,fillcolor=lightblue,label="{209 (I: 1, E: 8)|safety_acc\n|0\n0\n0\n0\n1\n0\n0\n1\n}"];
+210 [shape=record,style=filled,fillcolor=lightblue,label="{210 (I: 3, E: 3)|price_med\nbuying_vhigh\nsafety_unacc\n|0\n0\n0\n}"];
+211 [shape=record,style=filled,fillcolor=lightblue,label="{211 (I: 3, E: 2)|price_med\nmaint_5more\nsafety_unacc\n|0\n0\n}"];
+212 [shape=record,style=filled,fillcolor=lightblue,label="{212 (I: 2, E: 6)|price_med\nsafety_unacc\n|0\n0\n0\n0\n0\n0\n}"];
+213 [shape=record,style=filled,fillcolor=lightblue,label="{213 (I: 3, E: 6)|buying_high\npersons_med\nsafety_unacc\n|1\n0\n0\n1\n0\n1\n}"];
+214 [shape=record,style=filled,fillcolor=lightblue,label="{214 (I: 2, E: 9)|buying_high\nsafety_unacc\n|1\n0\n0\n1\n0\n1\n1\n0\n1\n}"];
+215 [shape=record,style=filled,fillcolor=lightblue,label="{215 (I: 3, E: 3)|buying_med\nmaint_3\nsafety_unacc\n|1\n0\n0\n}"];
+216 [shape=record,style=filled,fillcolor=lightblue,label="{216 (I: 2, E: 5)|buying_med\nsafety_unacc\n|0\n0\n1\n0\n0\n}"];
+217 [shape=record,style=filled,fillcolor=lightblue,label="{217 (I: 2, E: 5)|buying_vhigh\nsafety_unacc\n|0\n0\n0\n0\n0\n}"];
+218 [shape=record,style=filled,fillcolor=lightblue,label="{218 (I: 2, E: 3)|maint_2\nsafety_unacc\n|0\n0\n0\n}"];
+219 [shape=record,style=filled,fillcolor=lightblue,label="{219 (I: 3, E: 4)|maint_3\npersons_med\nsafety_unacc\n|1\n0\n0\n0\n}"];
+220 [shape=record,style=filled,fillcolor=lightblue,label="{220 (I: 3, E: 2)|maint_3\npersons_small\nsafety_unacc\n|1\n0\n}"];
+221 [shape=record,style=filled,fillcolor=lightblue,label="{221 (I: 3, E: 2)|maint_3\nlug_boot_med\nsafety_unacc\n|1\n1\n}"];
+222 [shape=record,style=filled,fillcolor=lightblue,label="{222 (I: 2, E: 6)|maint_3\nsafety_unacc\n|1\n1\n0\n0\n0\n0\n}"];
+223 [shape=record,style=filled,fillcolor=lightblue,label="{223 (I: 3, E: 2)|maint_4\npersons_big\nsafety_unacc\n|1\n0\n}"];
+224 [shape=record,style=filled,fillcolor=lightblue,label="{224 (I: 2, E: 8)|maint_4\nsafety_unacc\n|0\n1\n0\n0\n1\n0\n1\n1\n}"];
+225 [shape=record,style=filled,fillcolor=lightblue,label="{225 (I: 2, E: 4)|maint_5more\nsafety_unacc\n|0\n0\n0\n0\n}"];
+226 [shape=record,style=filled,fillcolor=lightblue,label="{226 (I: 3, E: 2)|doors_4\npersons_small\nsafety_unacc\n|1\n0\n}"];
+227 [shape=record,style=filled,fillcolor=lightblue,label="{227 (I: 2, E: 5)|doors_4\nsafety_unacc\n|0\n1\n0\n0\n1\n}"];
+228 [shape=record,style=filled,fillcolor=lightblue,label="{228 (I: 2, E: 4)|persons_big\nsafety_unacc\n|0\n0\n1\n0\n}"];
+229 [shape=record,style=filled,fillcolor=lightblue,label="{229 (I: 2, E: 11)|persons_med\nsafety_unacc\n|1\n0\n0\n0\n0\n0\n1\n0\n0\n0\n1\n}"];
+230 [shape=record,style=filled,fillcolor=lightblue,label="{230 (I: 2, E: 6)|persons_small\nsafety_unacc\n|0\n0\n1\n0\n1\n0\n}"];
+231 [shape=record,style=filled,fillcolor=lightblue,label="{231 (I: 2, E: 5)|lug_boot_med\nsafety_unacc\n|1\n0\n0\n1\n0\n}"];
+232 [shape=record,style=filled,fillcolor=lightblue,label="{232 (I: 1, E: 21)|safety_unacc\n|1\n0\n0\n0\n0\n0\n0\n1\n0\n0\n0\n1\n0\n0\n1\n0\n1\n0\n0\n0\n1\n}"];
+	1 -> 0
+	2 -> 11
+	2 -> 15
+	2 -> 19
+	2 -> 20
+	2 -> 21
+	2 -> 23
+	2 -> 24
+	2 -> 28
+	2 -> 29
+	2 -> 31
+	2 -> 34
+	2 -> 39
+	2 -> 45
+	2 -> 47
+	2 -> 49
+	2 -> 52
+	2 -> 56
+	2 -> 59
+	2 -> 70
+	2 -> 71
+	2 -> 73
+	2 -> 81
+	2 -> 83
+	2 -> 84
+	2 -> 99
+	2 -> 120
+	2 -> 137
+	2 -> 141
+	2 -> 190
+	3 -> 0
+	4 -> 232
+	5 -> 1
+	5 -> 8
+	6 -> 3
+	6 -> 8
+	7 -> 105
+	7 -> 162
+	8 -> 0
+	9 -> 10
+	9 -> 38
+	9 -> 149
+	9 -> 171
+	10 -> 80
+	11 -> 86
+	11 -> 101
+	11 -> 191
+	11 -> 193
+	11 -> 197
+	12 -> 3
+	12 -> 14
+	13 -> 32
+	13 -> 105
+	13 -> 109
+	13 -> 165
+	13 -> 169
+	13 -> 215
+	14 -> 0
+	15 -> 38
+	15 -> 77
+	15 -> 90
+	15 -> 94
+	15 -> 95
+	15 -> 134
+	15 -> 147
+	16 -> 3
+	16 -> 18
+	17 -> 58
+	17 -> 125
+	18 -> 0
+	19 -> 5
+	19 -> 100
+	19 -> 107
+	19 -> 134
+	19 -> 138
+	19 -> 139
+	19 -> 206
+	20 -> 22
+	20 -> 122
+	20 -> 124
+	20 -> 127
+	20 -> 135
+	20 -> 138
+	21 -> 22
+	21 -> 62
+	21 -> 64
+	21 -> 91
+	21 -> 150
+	21 -> 151
+	21 -> 167
+	21 -> 177
+	22 -> 3
+	22 -> 27
+	23 -> 7
+	23 -> 25
+	23 -> 107
+	23 -> 160
+	23 -> 167
+	23 -> 180
+	24 -> 17
+	24 -> 25
+	24 -> 64
+	24 -> 127
+	24 -> 195
+	25 -> 4
+	25 -> 218
+	26 -> 27
+	26 -> 74
+	27 -> 0
+	28 -> 30
+	28 -> 33
+	28 -> 85
+	28 -> 92
+	28 -> 93
+	28 -> 135
+	28 -> 143
+	28 -> 147
+	29 -> 30
+	29 -> 36
+	29 -> 102
+	29 -> 168
+	29 -> 210
+	30 -> 82
+	30 -> 88
+	31 -> 17
+	31 -> 36
+	31 -> 57
+	31 -> 186
+	31 -> 220
+	32 -> 155
+	32 -> 170
+	33 -> 8
+	33 -> 37
+	34 -> 131
+	34 -> 142
+	35 -> 14
+	35 -> 37
+	36 -> 170
+	36 -> 217
+	37 -> 0
+	38 -> 69
+	38 -> 79
+	39 -> 6
+	39 -> 54
+	39 -> 151
+	39 -> 152
+	39 -> 156
+	40 -> 16
+	40 -> 41
+	40 -> 43
+	41 -> 3
+	41 -> 44
+	42 -> 214
+	42 -> 224
+	43 -> 18
+	43 -> 44
+	44 -> 0
+	45 -> 5
+	45 -> 50
+	45 -> 90
+	45 -> 149
+	45 -> 161
+	45 -> 177
+	46 -> 12
+	46 -> 48
+	46 -> 103
+	46 -> 110
+	46 -> 115
+	47 -> 53
+	47 -> 67
+	47 -> 121
+	47 -> 188
+	47 -> 195
+	47 -> 211
+	48 -> 3
+	48 -> 51
+	49 -> 7
+	49 -> 50
+	49 -> 104
+	49 -> 158
+	49 -> 175
+	50 -> 67
+	50 -> 159
+	50 -> 176
+	51 -> 0
+	52 -> 40
+	52 -> 53
+	52 -> 54
+	52 -> 91
+	52 -> 94
+	52 -> 223
+	53 -> 55
+	53 -> 189
+	53 -> 196
+	53 -> 210
+	54 -> 41
+	54 -> 55
+	54 -> 66
+	55 -> 68
+	55 -> 212
+	56 -> 13
+	56 -> 57
+	56 -> 62
+	56 -> 104
+	56 -> 111
+	57 -> 32
+	57 -> 65
+	57 -> 154
+	58 -> 4
+	58 -> 68
+	59 -> 33
+	59 -> 106
+	59 -> 111
+	59 -> 197
+	59 -> 199
+	59 -> 221
+	60 -> 42
+	60 -> 66
+	60 -> 106
+	60 -> 114
+	61 -> 68
+	61 -> 214
+	62 -> 166
+	62 -> 179
+	63 -> 68
+	63 -> 217
+	64 -> 68
+	64 -> 218
+	65 -> 68
+	65 -> 222
+	66 -> 68
+	66 -> 224
+	67 -> 68
+	67 -> 225
+	68 -> 232
+	69 -> 1
+	69 -> 80
+	70 -> 46
+	70 -> 72
+	70 -> 188
+	70 -> 192
+	70 -> 193
+	70 -> 205
+	70 -> 206
+	71 -> 40
+	71 -> 77
+	71 -> 121
+	71 -> 122
+	71 -> 129
+	72 -> 203
+	72 -> 207
+	73 -> 95
+	73 -> 157
+	73 -> 160
+	73 -> 161
+	73 -> 171
+	73 -> 223
+	74 -> 8
+	74 -> 80
+	75 -> 35
+	75 -> 76
+	75 -> 78
+	76 -> 14
+	76 -> 80
+	77 -> 43
+	77 -> 79
+	77 -> 144
+	77 -> 146
+	78 -> 128
+	78 -> 132
+	79 -> 44
+	79 -> 80
+	80 -> 0
+	81 -> 46
+	81 -> 102
+	81 -> 150
+	81 -> 164
+	81 -> 175
+	81 -> 211
+	82 -> 3
+	82 -> 89
+	83 -> 13
+	83 -> 86
+	83 -> 164
+	83 -> 168
+	84 -> 85
+	84 -> 124
+	84 -> 157
+	84 -> 173
+	84 -> 183
+	85 -> 8
+	85 -> 89
+	86 -> 87
+	86 -> 109
+	86 -> 112
+	87 -> 110
+	87 -> 118
+	88 -> 37
+	88 -> 89
+	89 -> 0
+	90 -> 1
+	90 -> 98
+	91 -> 55
+	91 -> 92
+	91 -> 97
+	92 -> 3
+	92 -> 98
+	93 -> 8
+	93 -> 98
+	94 -> 43
+	94 -> 96
+	95 -> 79
+	95 -> 96
+	96 -> 44
+	96 -> 98
+	97 -> 68
+	97 -> 228
+	98 -> 0
+	99 -> 9
+	99 -> 100
+	99 -> 172
+	99 -> 180
+	100 -> 69
+	100 -> 101
+	100 -> 117
+	101 -> 1
+	101 -> 119
+	102 -> 82
+	102 -> 152
+	102 -> 182
+	103 -> 3
+	103 -> 119
+	104 -> 105
+	104 -> 154
+	104 -> 178
+	105 -> 155
+	105 -> 185
+	106 -> 61
+	106 -> 116
+	106 -> 213
+	107 -> 26
+	107 -> 108
+	107 -> 117
+	108 -> 8
+	108 -> 119
+	109 -> 35
+	109 -> 110
+	109 -> 113
+	110 -> 14
+	110 -> 119
+	111 -> 65
+	111 -> 116
+	111 -> 219
+	112 -> 88
+	112 -> 113
+	112 -> 118
+	113 -> 37
+	113 -> 119
+	114 -> 224
+	114 -> 229
+	115 -> 51
+	115 -> 119
+	116 -> 68
+	116 -> 229
+	117 -> 80
+	117 -> 119
+	118 -> 89
+	118 -> 119
+	119 -> 0
+	120 -> 9
+	120 -> 129
+	120 -> 131
+	120 -> 173
+	120 -> 226
+	121 -> 16
+	121 -> 123
+	121 -> 126
+	122 -> 72
+	122 -> 123
+	122 -> 136
+	122 -> 145
+	123 -> 3
+	123 -> 133
+	124 -> 8
+	124 -> 133
+	125 -> 63
+	125 -> 126
+	125 -> 230
+	126 -> 18
+	126 -> 133
+	127 -> 27
+	127 -> 133
+	128 -> 37
+	128 -> 133
+	129 -> 79
+	129 -> 130
+	129 -> 132
+	130 -> 44
+	130 -> 133
+	131 -> 10
+	131 -> 132
+	132 -> 80
+	132 -> 133
+	133 -> 0
+	134 -> 69
+	134 -> 146
+	135 -> 6
+	135 -> 136
+	135 -> 204
+	136 -> 203
+	136 -> 208
+	137 -> 60
+	137 -> 139
+	137 -> 144
+	138 -> 26
+	138 -> 146
+	138 -> 204
+	139 -> 108
+	139 -> 140
+	140 -> 8
+	140 -> 148
+	141 -> 75
+	141 -> 142
+	141 -> 205
+	142 -> 78
+	142 -> 143
+	142 -> 145
+	143 -> 37
+	143 -> 208
+	144 -> 44
+	144 -> 148
+	145 -> 132
+	145 -> 146
+	146 -> 207
+	146 -> 208
+	147 -> 98
+	147 -> 208
+	148 -> 0
+	149 -> 1
+	149 -> 187
+	150 -> 12
+	150 -> 153
+	150 -> 166
+	151 -> 55
+	151 -> 153
+	151 -> 179
+	152 -> 103
+	152 -> 153
+	152 -> 185
+	153 -> 187
+	153 -> 212
+	154 -> 58
+	154 -> 155
+	154 -> 179
+	155 -> 4
+	155 -> 187
+	156 -> 60
+	156 -> 157
+	156 -> 158
+	156 -> 172
+	157 -> 42
+	157 -> 163
+	157 -> 174
+	158 -> 106
+	158 -> 159
+	158 -> 162
+	158 -> 178
+	159 -> 61
+	159 -> 163
+	159 -> 179
+	160 -> 74
+	160 -> 163
+	160 -> 181
+	161 -> 93
+	161 -> 163
+	161 -> 184
+	162 -> 163
+	162 -> 185
+	162 -> 213
+	163 -> 187
+	163 -> 214
+	164 -> 87
+	164 -> 165
+	164 -> 182
+	165 -> 110
+	165 -> 166
+	165 -> 185
+	166 -> 187
+	166 -> 216
+	167 -> 187
+	167 -> 218
+	168 -> 112
+	168 -> 169
+	168 -> 182
+	169 -> 170
+	169 -> 185
+	169 -> 219
+	170 -> 187
+	170 -> 222
+	171 -> 79
+	171 -> 174
+	171 -> 181
+	172 -> 114
+	172 -> 174
+	172 -> 185
+	173 -> 130
+	173 -> 174
+	173 -> 186
+	174 -> 187
+	174 -> 224
+	175 -> 115
+	175 -> 176
+	175 -> 185
+	176 -> 187
+	176 -> 225
+	177 -> 97
+	177 -> 179
+	177 -> 184
+	178 -> 116
+	178 -> 179
+	178 -> 185
+	179 -> 68
+	179 -> 187
+	180 -> 117
+	180 -> 181
+	180 -> 185
+	181 -> 187
+	181 -> 227
+	182 -> 118
+	182 -> 183
+	182 -> 185
+	183 -> 89
+	183 -> 187
+	184 -> 187
+	184 -> 228
+	185 -> 187
+	185 -> 229
+	186 -> 187
+	186 -> 230
+	187 -> 232
+	188 -> 48
+	188 -> 189
+	189 -> 3
+	189 -> 202
+	190 -> 75
+	190 -> 191
+	190 -> 192
+	190 -> 201
+	190 -> 215
+	190 -> 220
+	190 -> 221
+	190 -> 226
+	191 -> 35
+	191 -> 194
+	191 -> 198
+	192 -> 76
+	192 -> 194
+	193 -> 110
+	193 -> 194
+	193 -> 200
+	194 -> 14
+	194 -> 202
+	195 -> 125
+	195 -> 196
+	195 -> 201
+	196 -> 63
+	196 -> 199
+	197 -> 113
+	197 -> 198
+	197 -> 200
+	198 -> 37
+	198 -> 202
+	199 -> 68
+	199 -> 231
+	200 -> 119
+	200 -> 202
+	201 -> 230
+	201 -> 231
+	202 -> 0
+	203 -> 3
+	203 -> 209
+	204 -> 140
+	204 -> 208
+	205 -> 76
+	205 -> 207
+	206 -> 117
+	206 -> 207
+	207 -> 80
+	207 -> 209
+	208 -> 148
+	208 -> 209
+	209 -> 0
+	210 -> 16
+	210 -> 212
+	210 -> 217
+	211 -> 48
+	211 -> 212
+	211 -> 225
+	212 -> 3
+	212 -> 232
+	213 -> 108
+	213 -> 214
+	213 -> 229
+	214 -> 8
+	214 -> 232
+	215 -> 35
+	215 -> 216
+	215 -> 222
+	216 -> 14
+	216 -> 232
+	217 -> 18
+	217 -> 232
+	218 -> 27
+	218 -> 232
+	219 -> 113
+	219 -> 222
+	219 -> 229
+	220 -> 128
+	220 -> 222
+	220 -> 230
+	221 -> 198
+	221 -> 222
+	221 -> 231
+	222 -> 37
+	222 -> 232
+	223 -> 96
+	223 -> 224
+	223 -> 228
+	224 -> 44
+	224 -> 232
+	225 -> 51
+	225 -> 232
+	226 -> 132
+	226 -> 227
+	226 -> 230
+	227 -> 80
+	227 -> 232
+	228 -> 98
+	228 -> 232
+	229 -> 119
+	229 -> 232
+	230 -> 133
+	230 -> 232
+	231 -> 202
+	231 -> 232
+	232 -> 0
+}

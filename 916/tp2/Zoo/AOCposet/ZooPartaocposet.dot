@@ -1,0 +1,103 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,label="{0 (I: 9, E: 1)|hair\neggs\nmilk\naquatic\npredator\nbackbone\nbreathes\ntail\ncatsize\n|platypus\n}"];
+1 [shape=record,style=filled,label="{1 (I: 9, E: 1)|milk\naquatic\npredator\ntoothed\nbackbone\nbreathes\nfins\ntail\ncatsize\n|porpoise\n}"];
+2 [shape=record,style=filled,label="{2 (I: 9, E: 1)|hair\nmilk\npredator\ntoothed\nbackbone\nbreathes\ntail\ndomestic\ncatsize\n|pussycat\n}"];
+3 [shape=record,style=filled,label="{3 (I: 9, E: 1)|eggs\naquatic\npredator\ntoothed\nbackbone\nvenomous\nfins\ntail\ncatsize\n|stingray\n}"];
+4 [shape=record,style=filled,fillcolor=orange,label="{4 (I: 8, E: 3)|eggs\naquatic\npredator\ntoothed\nbackbone\nfins\ntail\ncatsize\n|pike\nstingray\ntuna\n}"];
+5 [shape=record,style=filled,fillcolor=orange,label="{5 (I: 8, E: 4)|hair\nmilk\npredator\ntoothed\nbackbone\nbreathes\ntail\ncatsize\n|polecat\npuma\npussycat\nwolf\n}"];
+6 [shape=record,style=filled,label="{6 (I: 8, E: 2)|hair\nmilk\ntoothed\nbackbone\nbreathes\ntail\ndomestic\ncatsize\n|pony\npussycat\n}"];
+7 [shape=record,style=filled,label="{7 (I: 8, E: 1)|feathers\neggs\nairborne\naquatic\nbackbone\nbreathes\ntail\ncatsize\n|swan\n}"];
+8 [shape=record,style=filled,label="{8 (I: 8, E: 1)|feathers\neggs\nairborne\npredator\nbackbone\nbreathes\ntail\ncatsize\n|vulture\n}"];
+9 [shape=record,style=filled,label="{9 (I: 7, E: 5)|hair\nmilk\npredator\ntoothed\nbackbone\nbreathes\ncatsize\n|aardvark\npolecat\npuma\npussycat\nwolf\n}"];
+10 [shape=record,style=filled,fillcolor=orange,label="{10 (I: 7, E: 7)|hair\nmilk\ntoothed\nbackbone\nbreathes\ntail\ncatsize\n|antelope\npolecat\npony\npuma\npussycat\nwallaby\nwolf\n}"];
+11 [shape=record,style=filled,label="{11 (I: 7, E: 4)|eggs\naquatic\npredator\ntoothed\nbackbone\nfins\ntail\n|pike\npiranha\nstingray\ntuna\n}"];
+12 [shape=record,style=filled,label="{12 (I: 7, E: 1)|hair\nmilk\nairborne\ntoothed\nbackbone\nbreathes\ntail\n|vampire\n}"];
+13 [shape=record,style=filled,fillcolor=orange,label="{13 (I: 6, E: 5)|feathers\neggs\nairborne\nbackbone\nbreathes\ntail\n|pheasant\nsparrow\nswan\nvulture\nwren\n}"];
+14 [shape=record,style=filled,fillcolor=orange,label="{14 (I: 6, E: 10)|hair\nmilk\ntoothed\nbackbone\nbreathes\ntail\n|antelope\npolecat\npony\npuma\npussycat\nsquirrel\nvampire\nvole\nwallaby\nwolf\n}"];
+15 [shape=record,style=filled,fillcolor=lightblue,label="{15 (I: 6, E: 5)|aquatic\npredator\ntoothed\nbackbone\nfins\ntail\n|pike\npiranha\nporpoise\nstingray\ntuna\n}"];
+16 [shape=record,style=filled,label="{16 (I: 5, E: 1)|eggs\naquatic\ntoothed\nbackbone\nbreathes\n|toad\n}"];
+17 [shape=record,style=filled,label="{17 (I: 5, E: 4)|eggs\nbackbone\nbreathes\ntail\ncatsize\n|platypus\nswan\ntortoise\nvulture\n}"];
+18 [shape=record,style=filled,label="{18 (I: 5, E: 1)|hair\neggs\nairborne\nbreathes\nvenomous\n|wasp\n}"];
+19 [shape=record,style=filled,label="{19 (I: 3, E: 6)|eggs\naquatic\npredator\n|pike\npiranha\nplatypus\nstarfish\nstingray\ntuna\n}"];
+20 [shape=record,style=filled,fillcolor=lightblue,label="{20 (I: 3, E: 13)|milk\nbackbone\nbreathes\n|aardvark\nantelope\nplatypus\npolecat\npony\nporpoise\npuma\npussycat\nsquirrel\nvampire\nvole\nwallaby\nwolf\n}"];
+21 [shape=record,style=filled,label="{21 (I: 2, E: 10)|eggs\nbreathes\n|pheasant\nplatypus\nsparrow\nswan\ntermite\ntoad\ntortoise\nvulture\nwasp\nwren\n}"];
+22 [shape=record,style=filled,fillcolor=lightblue,label="{22 (I: 2, E: 22)|backbone\ntail\n|antelope\npheasant\npike\npiranha\nplatypus\npolecat\npony\nporpoise\npuma\npussycat\nsparrow\nsquirrel\nstingray\nswan\ntortoise\ntuna\nvampire\nvole\nvulture\nwallaby\nwolf\nwren\n}"];
+23 [shape=record,style=filled,fillcolor=lightblue,label="{23 (I: 2, E: 17)|toothed\nbackbone\n|aardvark\nantelope\npike\npiranha\npolecat\npony\nporpoise\npuma\npussycat\nsquirrel\nstingray\ntoad\ntuna\nvampire\nvole\nwallaby\nwolf\n}"];
+24 [shape=record,style=filled,fillcolor=lightblue,label="{24 (I: 2, E: 16)|backbone\ncatsize\n|aardvark\nantelope\npike\nplatypus\npolecat\npony\nporpoise\npuma\npussycat\nstingray\nswan\ntortoise\ntuna\nvulture\nwallaby\nwolf\n}"];
+25 [shape=record,style=filled,fillcolor=lightblue,label="{25 (I: 2, E: 13)|hair\nbreathes\n|aardvark\nantelope\nplatypus\npolecat\npony\npuma\npussycat\nsquirrel\nvampire\nvole\nwallaby\nwasp\nwolf\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 2, E: 7)|airborne\nbreathes\n|pheasant\nsparrow\nswan\nvampire\nvulture\nwasp\nwren\n}"];
+27 [shape=record,style=filled,fillcolor=lightblue,label="{27 (I: 2, E: 2)|eggs\nvenomous\n|stingray\nwasp\n}"];
+28 [shape=record,style=filled,fillcolor=lightblue,label="{28 (I: 1, E: 24)|backbone\n|aardvark\nantelope\npheasant\npike\npiranha\nplatypus\npolecat\npony\nporpoise\npuma\npussycat\nsparrow\nsquirrel\nstingray\nswan\ntoad\ntortoise\ntuna\nvampire\nvole\nvulture\nwallaby\nwolf\nwren\n}"];
+29 [shape=record,style=filled,fillcolor=lightblue,label="{29 (I: 1, E: 22)|breathes\n|aardvark\nantelope\npheasant\nplatypus\npolecat\npony\nporpoise\npuma\npussycat\nsparrow\nsquirrel\nswan\ntermite\ntoad\ntortoise\nvampire\nvole\nvulture\nwallaby\nwasp\nwolf\nwren\n}"];
+30 [shape=record,style=filled,fillcolor=lightblue,label="{30 (I: 1, E: 15)|eggs\n|pheasant\npike\npiranha\nplatypus\nsparrow\nstarfish\nstingray\nswan\ntermite\ntoad\ntortoise\ntuna\nvulture\nwasp\nwren\n}"];
+31 [shape=record,style=filled,fillcolor=lightblue,label="{31 (I: 1, E: 13)|predator\n|aardvark\npike\npiranha\nplatypus\npolecat\nporpoise\npuma\npussycat\nstarfish\nstingray\ntuna\nvulture\nwolf\n}"];
+32 [shape=record,style=filled,fillcolor=lightblue,label="{32 (I: 1, E: 9)|aquatic\n|pike\npiranha\nplatypus\nporpoise\nstarfish\nstingray\nswan\ntoad\ntuna\n}"];
+	0 -> 17
+	0 -> 19
+	0 -> 20
+	0 -> 25
+	1 -> 15
+	1 -> 20
+	1 -> 24
+	2 -> 5
+	2 -> 6
+	3 -> 4
+	3 -> 27
+	4 -> 11
+	4 -> 24
+	5 -> 9
+	5 -> 10
+	6 -> 10
+	7 -> 13
+	7 -> 17
+	7 -> 32
+	8 -> 13
+	8 -> 17
+	8 -> 31
+	9 -> 20
+	9 -> 23
+	9 -> 24
+	9 -> 25
+	9 -> 31
+	10 -> 14
+	10 -> 24
+	11 -> 15
+	11 -> 19
+	12 -> 14
+	12 -> 26
+	13 -> 21
+	13 -> 22
+	13 -> 26
+	14 -> 20
+	14 -> 22
+	14 -> 23
+	14 -> 25
+	15 -> 22
+	15 -> 23
+	15 -> 31
+	15 -> 32
+	16 -> 21
+	16 -> 23
+	16 -> 32
+	17 -> 21
+	17 -> 22
+	17 -> 24
+	18 -> 21
+	18 -> 25
+	18 -> 26
+	18 -> 27
+	19 -> 30
+	19 -> 31
+	19 -> 32
+	20 -> 28
+	20 -> 29
+	21 -> 29
+	21 -> 30
+	22 -> 28
+	23 -> 28
+	24 -> 28
+	25 -> 29
+	26 -> 29
+	27 -> 30
+}

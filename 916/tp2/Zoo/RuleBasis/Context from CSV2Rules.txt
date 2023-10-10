@@ -1,0 +1,7 @@
+<2> predator,domestic => hair,milk,toothed,backbone,breathes,catsize
+<2> predator,toothed,backbone,breathes,venomous => eggs
+<2> airborne,breathes,venomous => hair,eggs
+<2> airborne,toothed,backbone,breathes,tail => hair,milk
+<2> milk,airborne,backbone,breathes,tail => hair,toothed
+<2> eggs,predator,breathes,venomous => toothed,backbone
+<2> hair,breathes,venomous => eggs,airborne

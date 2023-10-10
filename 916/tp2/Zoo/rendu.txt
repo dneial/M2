@@ -1,0 +1,4 @@
+étapes:
+    1. sélectionner jeu de données
+    2. enlever colonnes non binaires
+    

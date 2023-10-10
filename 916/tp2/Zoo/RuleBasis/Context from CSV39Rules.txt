@@ -1,0 +1,3 @@
+<39> breathes,catsize => backbone
+<39> eggs,tail => backbone
+<39> hair,backbone,breathes => milk

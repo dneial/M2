@@ -1,0 +1,2 @@
+<16> aquatic,breathes => backbone
+<16> eggs,airborne,backbone,breathes,tail => feathers

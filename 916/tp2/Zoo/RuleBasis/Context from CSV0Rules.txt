@@ -1,0 +1,4 @@
+<0> feathers,eggs,predator,toothed,backbone,breathes,tail => hair,milk,airborne,aquatic,venomous,fins,domestic,catsize
+<0> feathers,eggs,airborne,aquatic,predator,backbone,breathes,tail,catsize => hair,milk,toothed,venomous,fins,domestic
+<0> hair,eggs,milk,aquatic,predator,toothed,backbone,breathes,fins,tail,catsize => feathers,airborne,venomous,domestic
+<0> hair,feathers,eggs,milk,aquatic,predator,backbone,breathes,tail,catsize => airborne,toothed,venomous,fins,domestic

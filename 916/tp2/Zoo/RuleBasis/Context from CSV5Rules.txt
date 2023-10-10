@@ -1,0 +1,2 @@
+<5> aquatic,toothed,backbone,breathes,tail => predator
+<5> airborne,aquatic,backbone,breathes,tail => feathers,eggs

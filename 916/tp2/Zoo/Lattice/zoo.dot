@@ -1,0 +1,153 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 0, E: 19)||aardvark\nantelope\nbass\nbear\nboar\nbuffalo\ncalf\ncarp\ncatfish\ncavy\ncheetah\nchicken\nchub\nclam\ncrab\ncrayfish\ncrow\ndeer\ndogfish\n}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 5, E: 9)|hair\nmilk\ntoothed\nbackbone\nbreathes\n|aardvark\nantelope\nbear\nboar\nbuffalo\ncalf\ncavy\ncheetah\ndeer\n}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 15, E: 0)|hair\nfeathers\neggs\nmilk\nairborne\naquatic\npredator\ntoothed\nbackbone\nbreathes\nvenomous\nfins\ntail\ndomestic\ncatsize\n|}"];
+3 [shape=record,style=filled,fillcolor=lightblue,label="{3 (I: 6, E: 2)|feathers\neggs\nairborne\nbackbone\nbreathes\ntail\n|chicken\ncrow\n}"];
+4 [shape=record,style=filled,fillcolor=lightblue,label="{4 (I: 1, E: 10)|eggs\n|bass\ncarp\ncatfish\nchicken\nchub\nclam\ncrab\ncrayfish\ncrow\ndogfish\n}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 2, E: 7)|eggs\naquatic\n|bass\ncarp\ncatfish\nchub\ncrab\ncrayfish\ndogfish\n}"];
+6 [shape=record,style=filled,fillcolor=orange,label="{6 (I: 7, E: 4)|hair\nmilk\npredator\ntoothed\nbackbone\nbreathes\ncatsize\n|aardvark\nbear\nboar\ncheetah\n}"];
+7 [shape=record,style=filled,label="{7 (I: 7, E: 1)|feathers\neggs\nairborne\npredator\nbackbone\nbreathes\ntail\n|crow\n}"];
+8 [shape=record,style=filled,fillcolor=orange,label="{8 (I: 3, E: 6)|eggs\naquatic\npredator\n|bass\ncatfish\nchub\ncrab\ncrayfish\ndogfish\n}"];
+9 [shape=record,style=filled,label="{9 (I: 2, E: 8)|eggs\npredator\n|bass\ncatfish\nchub\nclam\ncrab\ncrayfish\ncrow\ndogfish\n}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 1, E: 12)|predator\n|aardvark\nbass\nbear\nboar\ncatfish\ncheetah\nchub\nclam\ncrab\ncrayfish\ncrow\ndogfish\n}"];
+11 [shape=record,style=filled,fillcolor=orange,label="{11 (I: 7, E: 4)|eggs\naquatic\npredator\ntoothed\nbackbone\nfins\ntail\n|bass\ncatfish\nchub\ndogfish\n}"];
+12 [shape=record,style=filled,fillcolor=lightblue,label="{12 (I: 6, E: 5)|eggs\naquatic\ntoothed\nbackbone\nfins\ntail\n|bass\ncarp\ncatfish\nchub\ndogfish\n}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 3, E: 8)|predator\ntoothed\nbackbone\n|aardvark\nbass\nbear\nboar\ncatfish\ncheetah\nchub\ndogfish\n}"];
+14 [shape=record,style=filled,fillcolor=lightblue,label="{14 (I: 2, E: 14)|toothed\nbackbone\n|aardvark\nantelope\nbass\nbear\nboar\nbuffalo\ncalf\ncarp\ncatfish\ncavy\ncheetah\nchub\ndeer\ndogfish\n}"];
+15 [shape=record,style=filled,fillcolor=lightblue,label="{15 (I: 4, E: 5)|eggs\npredator\nbackbone\ntail\n|bass\ncatfish\nchub\ncrow\ndogfish\n}"];
+16 [shape=record,style=filled,fillcolor=lightblue,label="{16 (I: 3, E: 7)|eggs\nbackbone\ntail\n|bass\ncarp\ncatfish\nchicken\nchub\ncrow\ndogfish\n}"];
+17 [shape=record,style=filled,fillcolor=lightblue,label="{17 (I: 2, E: 9)|predator\nbackbone\n|aardvark\nbass\nbear\nboar\ncatfish\ncheetah\nchub\ncrow\ndogfish\n}"];
+18 [shape=record,style=filled,fillcolor=lightblue,label="{18 (I: 1, E: 16)|backbone\n|aardvark\nantelope\nbass\nbear\nboar\nbuffalo\ncalf\ncarp\ncatfish\ncavy\ncheetah\nchicken\nchub\ncrow\ndeer\ndogfish\n}"];
+19 [shape=record,style=filled,fillcolor=lightblue,label="{19 (I: 3, E: 5)|predator\nbackbone\nbreathes\n|aardvark\nbear\nboar\ncheetah\ncrow\n}"];
+20 [shape=record,style=filled,fillcolor=lightblue,label="{20 (I: 2, E: 11)|backbone\nbreathes\n|aardvark\nantelope\nbear\nboar\nbuffalo\ncalf\ncavy\ncheetah\nchicken\ncrow\ndeer\n}"];
+21 [shape=record,style=filled,fillcolor=orange,label="{21 (I: 8, E: 2)|hair\nmilk\npredator\ntoothed\nbackbone\nbreathes\ntail\ncatsize\n|boar\ncheetah\n}"];
+22 [shape=record,style=filled,fillcolor=lightblue,label="{22 (I: 4, E: 6)|predator\ntoothed\nbackbone\ntail\n|bass\nboar\ncatfish\ncheetah\nchub\ndogfish\n}"];
+23 [shape=record,style=filled,fillcolor=lightblue,label="{23 (I: 4, E: 3)|predator\nbackbone\nbreathes\ntail\n|boar\ncheetah\ncrow\n}"];
+24 [shape=record,style=filled,fillcolor=lightblue,label="{24 (I: 3, E: 7)|predator\nbackbone\ntail\n|bass\nboar\ncatfish\ncheetah\nchub\ncrow\ndogfish\n}"];
+25 [shape=record,style=filled,fillcolor=orange,label="{25 (I: 7, E: 6)|hair\nmilk\ntoothed\nbackbone\nbreathes\ntail\ncatsize\n|antelope\nboar\nbuffalo\ncalf\ncheetah\ndeer\n}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 3, E: 11)|toothed\nbackbone\ntail\n|antelope\nbass\nboar\nbuffalo\ncalf\ncarp\ncatfish\ncheetah\nchub\ndeer\ndogfish\n}"];
+27 [shape=record,style=filled,fillcolor=lightblue,label="{27 (I: 3, E: 8)|backbone\nbreathes\ntail\n|antelope\nboar\nbuffalo\ncalf\ncheetah\nchicken\ncrow\ndeer\n}"];
+28 [shape=record,style=filled,fillcolor=lightblue,label="{28 (I: 2, E: 13)|backbone\ntail\n|antelope\nbass\nboar\nbuffalo\ncalf\ncarp\ncatfish\ncheetah\nchicken\nchub\ncrow\ndeer\ndogfish\n}"];
+29 [shape=record,style=filled,label="{29 (I: 8, E: 1)|hair\nmilk\ntoothed\nbackbone\nbreathes\ntail\ndomestic\ncatsize\n|calf\n}"];
+30 [shape=record,style=filled,label="{30 (I: 6, E: 2)|hair\nmilk\ntoothed\nbackbone\nbreathes\ndomestic\n|calf\ncavy\n}"];
+31 [shape=record,style=filled,label="{31 (I: 7, E: 1)|eggs\naquatic\ntoothed\nbackbone\nfins\ntail\ndomestic\n|carp\n}"];
+32 [shape=record,style=filled,fillcolor=lightblue,label="{32 (I: 4, E: 2)|toothed\nbackbone\ntail\ndomestic\n|calf\ncarp\n}"];
+33 [shape=record,style=filled,fillcolor=lightblue,label="{33 (I: 3, E: 3)|toothed\nbackbone\ndomestic\n|calf\ncarp\ncavy\n}"];
+34 [shape=record,style=filled,label="{34 (I: 7, E: 1)|feathers\neggs\nairborne\nbackbone\nbreathes\ntail\ndomestic\n|chicken\n}"];
+35 [shape=record,style=filled,fillcolor=lightblue,label="{35 (I: 4, E: 2)|backbone\nbreathes\ntail\ndomestic\n|calf\nchicken\n}"];
+36 [shape=record,style=filled,fillcolor=lightblue,label="{36 (I: 3, E: 3)|backbone\nbreathes\ndomestic\n|calf\ncavy\nchicken\n}"];
+37 [shape=record,style=filled,fillcolor=lightblue,label="{37 (I: 4, E: 2)|eggs\nbackbone\ntail\ndomestic\n|carp\nchicken\n}"];
+38 [shape=record,style=filled,fillcolor=lightblue,label="{38 (I: 3, E: 3)|backbone\ntail\ndomestic\n|calf\ncarp\nchicken\n}"];
+39 [shape=record,style=filled,fillcolor=lightblue,label="{39 (I: 2, E: 4)|backbone\ndomestic\n|calf\ncarp\ncavy\nchicken\n}"];
+40 [shape=record,style=filled,fillcolor=lightblue,label="{40 (I: 6, E: 8)|hair\nmilk\ntoothed\nbackbone\nbreathes\ncatsize\n|aardvark\nantelope\nbear\nboar\nbuffalo\ncalf\ncheetah\ndeer\n}"];
+41 [shape=record,style=filled,label="{41 (I: 8, E: 1)|eggs\naquatic\npredator\ntoothed\nbackbone\nfins\ntail\ncatsize\n|dogfish\n}"];
+42 [shape=record,style=filled,fillcolor=lightblue,label="{42 (I: 5, E: 3)|predator\ntoothed\nbackbone\ntail\ncatsize\n|boar\ncheetah\ndogfish\n}"];
+43 [shape=record,style=filled,fillcolor=lightblue,label="{43 (I: 4, E: 5)|predator\ntoothed\nbackbone\ncatsize\n|aardvark\nbear\nboar\ncheetah\ndogfish\n}"];
+44 [shape=record,style=filled,fillcolor=lightblue,label="{44 (I: 4, E: 7)|toothed\nbackbone\ntail\ncatsize\n|antelope\nboar\nbuffalo\ncalf\ncheetah\ndeer\ndogfish\n}"];
+45 [shape=record,style=filled,fillcolor=lightblue,label="{45 (I: 3, E: 9)|toothed\nbackbone\ncatsize\n|aardvark\nantelope\nbear\nboar\nbuffalo\ncalf\ncheetah\ndeer\ndogfish\n}"];
+	1 -> 14
+	1 -> 20
+	2 -> 7
+	2 -> 21
+	2 -> 29
+	2 -> 31
+	2 -> 34
+	2 -> 41
+	3 -> 16
+	3 -> 27
+	4 -> 0
+	5 -> 4
+	6 -> 19
+	6 -> 40
+	6 -> 43
+	7 -> 3
+	7 -> 15
+	7 -> 23
+	8 -> 5
+	8 -> 9
+	9 -> 4
+	9 -> 10
+	10 -> 0
+	11 -> 8
+	11 -> 12
+	11 -> 15
+	11 -> 22
+	12 -> 5
+	12 -> 16
+	12 -> 26
+	13 -> 14
+	13 -> 17
+	14 -> 18
+	15 -> 9
+	15 -> 16
+	15 -> 24
+	16 -> 4
+	16 -> 28
+	17 -> 10
+	17 -> 18
+	18 -> 0
+	19 -> 17
+	19 -> 20
+	20 -> 18
+	21 -> 6
+	21 -> 23
+	21 -> 25
+	21 -> 42
+	22 -> 13
+	22 -> 24
+	22 -> 26
+	23 -> 19
+	23 -> 24
+	23 -> 27
+	24 -> 17
+	24 -> 28
+	25 -> 27
+	25 -> 40
+	25 -> 44
+	26 -> 14
+	26 -> 28
+	27 -> 20
+	27 -> 28
+	28 -> 18
+	29 -> 25
+	29 -> 30
+	29 -> 32
+	29 -> 35
+	30 -> 1
+	30 -> 33
+	30 -> 36
+	31 -> 12
+	31 -> 32
+	31 -> 37
+	32 -> 26
+	32 -> 33
+	32 -> 38
+	33 -> 14
+	33 -> 39
+	34 -> 3
+	34 -> 35
+	34 -> 37
+	35 -> 27
+	35 -> 36
+	35 -> 38
+	36 -> 20
+	36 -> 39
+	37 -> 16
+	37 -> 38
+	38 -> 28
+	38 -> 39
+	39 -> 18
+	40 -> 1
+	40 -> 45
+	41 -> 11
+	41 -> 42
+	42 -> 22
+	42 -> 43
+	42 -> 44
+	43 -> 13
+	43 -> 45
+	44 -> 26
+	44 -> 45
+	45 -> 14
+}

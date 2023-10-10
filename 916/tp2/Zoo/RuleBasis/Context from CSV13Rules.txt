@@ -1,0 +1,1 @@
+<13> eggs,aquatic,toothed,backbone,fins => tail

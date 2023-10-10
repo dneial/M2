@@ -1,0 +1,2 @@
+<8> toothed,backbone,breathes,domestic => hair,milk
+<8> milk,backbone,breathes,domestic => hair,toothed

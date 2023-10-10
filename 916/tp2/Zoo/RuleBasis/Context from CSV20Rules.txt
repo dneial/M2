@@ -1,0 +1,2 @@
+<20> feathers => eggs,backbone,breathes,tail
+<20> hair,predator,breathes => milk,backbone

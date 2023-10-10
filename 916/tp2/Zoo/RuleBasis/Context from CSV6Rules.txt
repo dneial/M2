@@ -1,0 +1,2 @@
+<6> domestic,catsize => hair,milk,toothed,backbone,breathes
+<6> milk,aquatic,backbone,breathes => predator,catsize
