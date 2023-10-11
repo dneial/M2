@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" name="model">
+  <packageImport>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Class" name="Rectangle">
+    <ownedOperation name="aire" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" name="Carre">
+    <generalization general="//Rectangle"/>
+    <generalization general="//Rectangle2"/>
+    <generalization general="//Rectangle3"/>
+    <ownedOperation name="aire"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" name="Rectangle2">
+    <ownedOperation name="aire"/>
+    <ownedOperation name="aire"/>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" name="Rectangle3"/>
+  <packagedElement xsi:type="uml:Class" name="Rectangle4"/>
+</uml:Model>

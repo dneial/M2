@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_h297QFiMEe6cnv4HKnVQ9A" name="model">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_h3dDcFiMEe6cnv4HKnVQ9A">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PhDL0GhOEe63f7ML3x8nuA" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_PkJjIGhOEe63f7ML3x8nuA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_DhVkIFiNEe6af5TgaN8yIQ" name="Animal" visibility="public">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Sj8AoFiNEe6af5TgaN8yIQ" name="name">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_haHxwFiNEe6af5TgaN8yIQ" name="gender">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_aHlYQFiNEe6af5TgaN8yIQ" name="sound()"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TmsLgGhOEe63f7ML3x8nuA" name="Rectangle">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gRcm4GhOEe63f7ML3x8nuA" name="aire" isAbstract="true"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_xNlqgFiNEe6af5TgaN8yIQ" name="Dog">
-    <generalization xmi:type="uml:Generalization" xmi:id="_Ax5s8FiOEe6af5TgaN8yIQ" general="_DhVkIFiNEe6af5TgaN8yIQ"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_4Uk7UFiNEe6af5TgaN8yIQ" name="breed">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hfpVgFiOEe6af5TgaN8yIQ" client="_xNlqgFiNEe6af5TgaN8yIQ" supplier="_Y2V9YFiOEe6af5TgaN8yIQ" contract="_Y2V9YFiOEe6af5TgaN8yIQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WAOOsGhOEe63f7ML3x8nuA" name="Carre">
+    <generalization xmi:type="uml:Generalization" xmi:id="_bmPcAGhOEe63f7ML3x8nuA" general="_TmsLgGhOEe63f7ML3x8nuA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_b9Hq8GhOEe63f7ML3x8nuA" general="_XntJ4GhOEe63f7ML3x8nuA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_ipvT8GhOEe63f7ML3x8nuA" general="_YllHYGhOEe63f7ML3x8nuA"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ee3O8GhOEe63f7ML3x8nuA" name="aire"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IVLRIFiOEe6af5TgaN8yIQ" name="Reptile">
-    <generalization xmi:type="uml:Generalization" xmi:id="_UrkmEFiOEe6af5TgaN8yIQ" general="_DhVkIFiNEe6af5TgaN8yIQ"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_JviWUFiOEe6af5TgaN8yIQ" name="type">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_h2w1AFiOEe6af5TgaN8yIQ" client="_IVLRIFiOEe6af5TgaN8yIQ" supplier="_Y2V9YFiOEe6af5TgaN8yIQ" contract="_Y2V9YFiOEe6af5TgaN8yIQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XntJ4GhOEe63f7ML3x8nuA" name="Rectangle2">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hCQ_0GhOEe63f7ML3x8nuA" name="aire"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_Y2V9YFiOEe6af5TgaN8yIQ" name="Mobility">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_dnhNYFiOEe6af5TgaN8yIQ" name="move"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YllHYGhOEe63f7ML3x8nuA" name="Rectangle3"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_j5_a4GhOEe63f7ML3x8nuA" name="Rectangle4"/>
 </uml:Model>
