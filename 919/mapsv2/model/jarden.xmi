@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<v2:Map xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:v2="mv2" name="montpellier">
+  <spaces xsi:type="v2:Square" name="place de l'europe"/>
+  <spaces xsi:type="v2:Square" borderedBy="//@roads.1 //@roads.0" name="place de la com&#xe9;die"/>
+  <spaces xsi:type="v2:Garden" borderedBy="//@roads.0 //@roads.1" name="jarden"/>
+  <roads xsi:type="v2:Street" border="//@spaces.1 //@spaces.2" meets="//@roads.1" name="Av. Frederic Mistral" length="500"/>
+  <roads xsi:type="v2:Pedestrian" border="//@spaces.1 //@spaces.2" meets="//@roads.0" name="all&#xe9;e paul boulet" length="700"/>
+</v2:Map>
