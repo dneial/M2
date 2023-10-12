@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nswkfl:Workflows
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nswkfl="http://wkfl"
+    xsi:schemaLocation="http://wkfl workflow.ecore">
+  <workflows
+      name="build-and-test">
+    <jobs name="build-A">
+      <steps>run : echo &quot;Compiling the code of part A ...&quot;</steps>
+      <steps>run : echo &quot;Compiling complete.&quot;</steps>
+    </jobs>
+    <jobs name="build-B">
+      <steps>run : echo &quot;Compiling the code of part B ...&quot;</steps>
+    </jobs>
+    <jobs name="test-A"
+        requires="//@workflows.0/@jobs.0 //@workflows.0/@jobs.1">
+      <steps>run : echo &quot;test part A&quot;</steps>
+    </jobs>
+    <jobs name="test-B"
+        requires="//@workflows.0/@jobs.0 //@workflows.0/@jobs.1">
+      <steps>run : echo &quot;test part B&quot;</steps>
+    </jobs>
+    <jobs name="test-AB"
+        requires="//@workflows.0/@jobs.0 //@workflows.0/@jobs.1">
+      <steps>run : echo &quot;test A+B&quot;</steps>
+    </jobs>
+  </workflows>
+</nswkfl:Workflows>

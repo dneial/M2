@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipelinesAns:Pipeline
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:pipelinesAns="http://pipelinesA"
+    xsi:schemaLocation="http://pipelinesA pipeline.ecore">
+  <firstStage
+      name="build">
+    <jobs name="build-A">
+      <script>echo &quot;Compiling the code of part A ...&quot;</script>
+      <script>echo &quot;Compiling complete.&quot;</script>
+    </jobs>
+    <jobs name="build-B">
+      <script>echo &quot;Compiling the code of part B&quot;</script>
+    </jobs>
+    <nextStage
+        name="test">
+      <jobs
+          name="test-A">
+        <script>echo &quot;test part A&quot;</script>
+      </jobs>
+      <jobs
+          name="test-B">
+        <script>echo &quot;test part B&quot;</script>
+      </jobs>
+      <jobs
+          name="test-AB">
+        <script>echo &quot;test A+B&quot;</script>
+      </jobs>
+      <nextStage
+          name="prod">
+        <jobs
+            name="prod-A"/>
+        <jobs
+            name="prod-B"/>
+      </nextStage>
+    </nextStage>
+  </firstStage>
+</pipelinesAns:Pipeline>
