@@ -1,0 +1,33 @@
+#+title: tp tortues
+
+* Question 1
+** La taille d'une tortue est comprise entre 0 et la taille maximale admise par son espèce
+context Tortue inv:
+    (taille >= 0) and (taille <= espèce.tailleMaxAdulte)
+** La température de jour est supérieure à la temperature de nuit
+context ModeElevage inv:
+    tempJour > tempNuit
+** On ne peut changer la taille d'une tortue que pour l'augmenter
+context Tortue::changeTaille(nelleTaille: entier)
+    pré: (nelleTaille > taille) and (nelleTaille <= espèce.tailleMaxAdulte)
+    post: taille = nelleTaille
+* Question 2
+** Une tortue mâle ne peut pas avoir de dates de ponte
+context Tortue inv:
+    sexe = #M (ou enumName::M) implies datesPonte->isEmpty()
+** Une tortue habite l'un des lieux de la répartition géographique de son espèce
+context Tortue inv:
+    espece.repartitionGeographique.lieu->includes(lieu)
+** Tout aliment utilisable pour l'élevage en captivité fait partie du régime alimentaire général
+context EspeceTortue inv:
+    biologie.typeAliment.aliment->flatten()->asSet()->includesAll(modeElevage.regimeCaptivite.aliment->flatten()->asSet())
+** Post condition de l'opération nourriturePossible de la classe EspèceTortue: t est un type d'aliment possible s'il fait partie du régime alimentaire général de l'espèce
+ context EspeceTortue::nourriturePossible(t: TypeAliment): boolean
+    post: result = biologie.typeAliment->includes(t)
+** Pré-condition de l'opération Tortue::mange(a: Aliment): une tortue ne peut manger que des aliments prévus par un des régimes alimentaires de son espèce (tester si captive pour connaître son régime)
+context Tortue::manger(a: Aliment)
+   pre:  if captive
+            then espece.modeElevage.typeAliment.aliment->flatten()->includes(a)
+         else
+            espece.biologie.typeAliment.aliment->flatten()->includes(a)
+         endif

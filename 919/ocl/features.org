@@ -1,0 +1,48 @@
+#+title: Features
+
+* Question 2.2
+** requête retournant les features Static
+context Classifier
+    def: staticFeatures(): Set(Feature) = feature.select(f | f.isStatic)
+** requête retournant les BehavioralFeatures abstraites
+    def: abstractBF(): Set(BehavioralFeature) =
+        feature.select(f | f.oclIsTypeOf(BehavioralFeature) and f.oclAsType(BehavioralFeature).isAbstract)->collect(oclAsType(BehavioralFeature))
+** contrainte indiquant que les BehavioralFeature abstraites n'ont pas de méthode associée
+context BehavioralFeature inv:
+    isAbstract implies method->isEmpty()
+context Classifier inv:
+    abstractBF()->forAll(method->isEmpty())
+** Requête retournant les StructuralFeature dont la collection des valeurs est un bag(collection non ordonnée et non unique)
+context Classifier
+    def: bagStructuralFeatures(): Set(StructuralFeature) =
+        feature.
+        select(f |
+            f.oclIsTypeOf(StructuralFeature) and
+            not f.oclAsType(StructuralFeature).isOrdered and
+            not f.oclAsType(StructuralFeature).isUnique
+        )
+        ->collect(oclAsType(StructuralFeature))
+** Requête retournant les BehavioralFeature ordonnées par leur nombre de paramètres
+context Classifier
+    def: orderedBehavioralFeatures(): Set(BehavioralFeature) =
+        feature.
+        select(
+            f.oclIsTypeOf(BehavioralFeature))->
+            sortedBy(oclAsType(BehavioralFeature).ownedParameter->size())->
+            collect(oclAsType(BehavioralFeature)
+        )
+        ->asSet()
+** Requête retournant les noms des BehavioralFeature dont tous les paramètres sont passés acec la direction in ou return
+context Classifier
+    def: f(): Set(String) =
+        feature.
+        select(f | f.oclIsTypeOf(BehavioralFeature) and f.oclAsType(BehavioralFeature).ownedParameter
+                                                                                            ->forAll(p | p.direction = in or p.direction = return))
+        ->collect(name)
+        ->asSet()
+
+* Question 3.2
+** Requête parents(): Classifier [0..*] retournant tous les successeurs immédiats (généralisations) d'un classifier
+context Classifier
+    def: parents(): Set(Classifier) =
+        generalization.general->asSet() [generalization->collect(general)->asSet()]

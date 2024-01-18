@@ -29,11 +29,11 @@ function visit_callnode(nodet) {
             break;
 
         case "MemberExpression":
-        calledfunc = node.callee.object.name + "." + node.callee.property.name;
+            calledfunc = node.callee.object.name + "." + node.callee.property.name;
             break;
-    default:
-        calledfunc = "undefined"
-        break;
+        default:
+            calledfunc = "undefined"
+            break;
     }
     return calledfunc
 

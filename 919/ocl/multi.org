@@ -1,0 +1,25 @@
+#+title: Multi
+
+* Question 1
+** Contrainte: La borne inférieure doit être positive ou nulle
+context MultiplicityElement inv:
+    lowerBound() >= 0
+context MultiplicityElement inv:
+    not(lowerValue = null or lowerValue.integerValue() = null)
+    implies lowerValue.integerValue() >= 0
+** Contrainte: La borne supérieure doit être supérieure à la borne inférieure
+context MultiplicityElement inv:
+    upperBound() > lowerBound()
+** Contrainte: La valeur dérivée de /lower doit être égale à la borne inférieure donnée par la requête ci-dessus(lowerBound())
+ context MultiplicityElement::lower derive:
+    lowerBound()
+** Contrainte: La valeur dérivée de /upper doit être égale à la borne supérieure donnée par la requête ci-dessus(upperBound())
+ context MultiplicityElement::upper derive:
+    upperBound()
+** Contrainte: La requête isMultivalued() retourne vrai si la propriété peut prendre plus d'une valeur; elle ne s'applique que lorsqu'une borne supérieure a été spécifiée
+ context MultiplicityElement::isMultivalued()
+    pré: not(upperValue = null or upperValue.integerValue() = null)
+    body: upperBound() > 1
+** Contrainte: La requête includesMultiplicity(M: MultiplicityElement) retourne vrai si la multiplicité de l'élément inclut M
+ context MultiplicityElement::includesMultiplicity(M: MultiplicityElement)
+    body: lower <= M.lower and upper >= M.upper
